@@ -1,8 +1,12 @@
 # Bird Species Egg Volume Variation Analysis
 
-## Analysis Summary
+## Context
 
-Created SQLite database from CSVs and schema build script, queried to fetch distinct species names, created cursor, and stored species data. Iterated over species data, querying the database to fetch egg volume data for each species, loading data into pandas DataFrame, and computing coefficients of variation for each species.
+This project was completed for my Databases & Data Management class, taken as part of my Master's program at UC Santa Barbara. Provided with data and questions, I carried out this analysis using appropriate database techniques.
+
+## Summary of Analysis
+
+Created SQLite database from CSVs and schema build SQL script, queried to fetch distinct species names, created cursor, and stored the species data. Iterated over species data, querying the database to fetch egg volume data for each species, loading data into pandas DataFrame, and computing coefficients of variation for each species.
 
 ## SQLite Database
 
