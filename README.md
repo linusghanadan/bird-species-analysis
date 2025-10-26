@@ -6,16 +6,20 @@ This project was completed for my Databases & Data Management class, taken as pa
 
 ## Summary of Analysis
 
-Created SQLite database from CSVs and schema build SQL script, queried to fetch distinct species names, created cursor, and stored the species data. Iterated over species data, querying the database to fetch egg volume data for each species, loading data into pandas DataFrame, and computing coefficients of variation for each species.
+Created DuckDB database from CSVs and schema build script, converted to SQLite database, queried for distinct species names, created cursor, and stored species data. Iterated over data, querying the database to fetch egg volume data for each species, loading data into pandas DataFrame, and computing coefficients for each species.
 
 ## Entity-Relationship Model
 The entities and relationships outlined in the following diagram were used to construct the schema build SQL script.
 <img width="874" height="888" alt="asdn-er-diagram" src="https://github.com/user-attachments/assets/933469cc-75c3-4a9f-8d1a-7836dc080472" />
 
-## Notes on SQLite Database
+## Notes on Databases Created
 
-The code in the ipnyb file uses the SQLite database that is included in this repository. This database was created by converting the DuckDB database, which is also included in this repository. The DuckDB database was converted to SQLite because the SQLite version accepts null egg numbers.
+#### database.db
 
-## Notes on DuckDB Database
+The DuckDB database (named database.db) is found in the 'database-build-files' folder, and was created using the other files in the same folder, including CSVs sourced from the [Arctic Shorebird Demographics Network (ASDN)](https://www.manomet.org/project/arctic-shorebird-demographics-network-asdn/).
 
-The DuckDB database was created using a collection of files that can be found in the 'database-build-files' folder in this repository. This database was created as a project for the Databases & Data Management course at the Bren School at UC Santa Barbara.
+#### database.sqlite
+
+The SQLite database (database.sqlite), created through converting the DuckDB database, was used to conduct the project's analysis. 
+The DuckDB database was converted to SQLite because the SQLite version accepts null egg numbers.
+
