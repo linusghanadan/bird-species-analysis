@@ -6,7 +6,7 @@ This project was completed for my Databases & Data Management class, taken as pa
 
 ## Summary of Analysis
 
-For the project, we were provided three datasets from the Arctic Shorebird Demographics Network (ASDN). Our instructions were to create an Entity-Relationship model to understand how the variables related to each other across the three datasets to create a set of tables with fields from the datasets and additional code fields to use as primary keys, translate this model into a schema build SQL script to create a database, and then also answer a data analysis question through querying our database and executing an iterative calculation over results using Python.
+For the project, I was provided three datasets from the Arctic Shorebird Demographics Network (ASDN). My instructions were to first create an Entity-Relationship model to understand how the variables related to each other across the three datasets and define our tables. In doing so, I created additional code fields to use as primary keys in additional tables. The second part of the project was to create a relational database by translating my model into a schema build SQL script. Lastley, the third part of the project was to answer a data analysis question through querying my database and executing an iterative calculation over results using Python.
 
 ## Entity-Relationship Model
 The entities and relationships outlined in the following diagram were used to construct the schema build SQL script.
