@@ -2,11 +2,11 @@
 
 ## Context
 
-This project was completed for my Databases & Data Management class, taken as part of my Master's program at UC Santa Barbara. Provided with data and questions, I carried out this analysis using appropriate data modeling and database techniques.
+This project was completed for my Databases & Data Management class, taken as part of my Master's program at UC Santa Barbara. Provided with data and questions, I carried out this analysis myself.
 
 ## Summary of Analysis
 
-Created DuckDB database from CSVs and schema build script, converted to SQLite database, queried for distinct species names, created cursor, and stored species data. Iterated over data, querying the database to fetch egg volume data for each species, loading data into pandas DataFrame, and computing coefficients for each species.
+For the project, we were provided three datasets from the Arctic Shorebird Demographics Network (ASDN). Our instructions were to create an Entity-Relationship model to understand how the variables related to each other across the three datasets to create a set of tables with fields from the datasets and additional code fields to use as primary keys, translate this model into a schema build SQL script to create a database, and then also answer a data analysis question through querying our database and executing an iterative calculation over results using Python.
 
 ## Entity-Relationship Model
 The entities and relationships outlined in the following diagram were used to construct the schema build SQL script.
